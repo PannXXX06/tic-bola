@@ -131,7 +131,7 @@
                             <div>
                                 <div class="text-xs text-gray-500 uppercase mb-1 flex items-center">
                                     <i class="fas fa-users text-cyan-500 mr-1"></i> Tim
-                                </div>
+                                </div>  
                                 <div class="text-gray-300 truncate">{{ $match->teams }}</div>
                             </div>
                             <div>

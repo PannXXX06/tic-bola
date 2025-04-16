@@ -3,6 +3,33 @@
 @section('title', 'Home')
 
 @section('content')
+
+<div class="mb-10 bg-gradient-to-r from-gray-900 to-gray-800 p-8 rounded-lg shadow-lg border-l-4 border-cyan-500">
+    <h1 class="text-4xl font-bold mb-4 text-white tracking-tight">Selamat Datang di 
+        <i class="fas fa-futbol text-cyan-500 text-2xl mr-2"></i> Goal<span class="text-cyan-400">Tix</span></h1>
+    <p class="text-gray-300 mb-6 text-lg">
+        Website ini memudahkan kamu untuk melihat jadwal pertandingan sepak bola, memesan tiket secara online, dan langsung menggunakan e-tiket untuk masuk ke stadion.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 shadow transition pointer-events-none">
+            <div class="text-cyan-400 text-3xl mb-3">
+                <i class="fas fa-calendar-alt"></i>
+            </div>
+            <h2 class="text-white font-semibold text-xl mb-2">Jadwal Lengkap</h2>
+            <p class="text-gray-400 text-sm">Temukan semua pertandingan yang akan datang dengan informasi lengkap.</p>
+        </div>
+        <div class="bg-gray-900 p-6 rounded-lg border border-gray-800 shadow transition pointer-events-none">
+            <div class="text-cyan-400 text-3xl mb-3">
+                <i class="fas fa-ticket-alt"></i>
+            </div>
+            <h2 class="text-white font-semibold text-xl mb-2">Pesan Tiket Mudah</h2>
+            <p class="text-gray-400 text-sm">Pilih tempat duduk dan bayar tiket langsung dari website.</p>
+        </div>
+    </div>    
+</div>
+
+
     <div class="mb-6 bg-gradient-to-r from-gray-900 to-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-cyan-500">
         <h1 class="text-3xl font-bold mb-3 text-white tracking-tight">Daftar Pertandingan</h1>
         <p class="text-gray-400 mb-4">Pilih pertandingan untuk memesan tiket.</p>
